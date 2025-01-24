@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none; 
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+#landingPage{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #353635, #2f302f, #292a29, #232424, #1d1e1e);
+     /* background-image: linear-gradient(to right top, #ffae7a, #feae78, #fdaf76, #fbaf74, #fab072,
+     #fab276, #fbb57b, #fbb77f, #fdbc8a, #fec196, #ffc7a1, #ffccac); */
+} 
+
+.nav-links{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links li{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: Plus Jakarta Sans, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav-links li h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: Anton SC,Geneva, Tahoma, sans-serif;
+}
+.nav-links li a{
+    font-size: 1rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* .nav-links li #h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #93e7a2, #43a265, #51dd87);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 4s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  } */
+/* 
+  .nav-links li #spanH2 {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #3b3c3b, #272828, #131413);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer1 4s infinite;
+  }
+
+  @keyframes shimmer1 {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  } */
+
+  .coverBg{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/skycrapers.svg);
+    background-size: contain;
+    margin-top: 110px; /* Add margin around the container */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #powerQuate{
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: Bangers,Geneva, Tahoma, sans-serif;
+    position: absolute;
+    right: 44rem;
+    top:2rem;
+  }
+
+  .fromPage{
+   color: #fff;
+    position: relative;
+   top: 4rem;
+   left: 8rem;
+  }
+
+  .fromPage #starSvg{
+    position: relative;
+    left: -1.2rem;
+    top:2.3rem;
+  }
+  .fromPage h1{
+    line-height: 5.5rem;
+    font-family: Plus Jakarta Sans, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+  }
+
+  #vegBag2{
+    position: absolute;
+    top:-6rem;
+    right: 15rem;
+  }
+ #subTitleText h3{
+    position: relative;
+    left: 0.1rem;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    color: #dedede;
+    font-family: Plus Jakarta Sans, Geneva, Tahoma, sans-serif;
+    font-weight:400;
+    margin-top: 1.5rem;
+  }
+  
+  #WhatsUpText h3{
+   font-family: Plus Jakarta Sans, Geneva, Tahoma, serif;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    
+  }
+
+  #sg1{
+    position: relative;
+    top: -.9rem;
+    left: -.4rem;
+  }
+  #btns{
+    margin-top: 2rem;
+  }
+
+  .btn1{
+    font-family: Plus Jakarta Sans, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFFAFA;
+    background: #0CB870;
+    font-size: 1.2rem;
+    border: #0CB870;
+    border-radius: 0.8rem;
+    width: 9rem;
+    height: 3.5rem;
+    transition: all 0.2s ease;
+    box-shadow: 0px 3px 6px #0e0e0e5d;
+    
+  }
+  .btn2{
+    margin-left: 1.5rem;
+    font-family: Plus Jakarta Sans, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #4B4B4B;
+    background: #FFFAFA;
+    font-size: 1.2rem;
+    border: #0CB870;
+    border-radius: 0.8rem;
+    width: 9rem;
+    height: 3.5rem;
+    transition: all 0.2s ease;
+    box-shadow: 0px 3px 6px #12121284;
+    
+  }
+
+  .btn1:hover{
+    background: #39ca5f;
+    transform: scale(1.1);
+    /* transform: translateY(-2px); /* Move up slightly */
+    /* box-shadow: 0px 8px 0px #018522;  */
+  }
+
+  .btn1:active{
+    background: #01834b;
+  }
+  .btn2:hover{
+    transform: scale(1.1); 
+  }
+
+  .btn2:active{
+    background: #e2e1e1;
+  }
+
+  
+ 
+  

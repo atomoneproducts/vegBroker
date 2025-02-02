@@ -15,11 +15,11 @@
 <body>
 
     <header>
-        <nav  style="position:fixed;z-index: 1;background:#035332;width: 100%;height: 4rem;box-shadow: 0px 3px 6px rgba(30, 30, 30, 0.904)">
+        <nav  style="position:fixed;z-index: 1000;background:#035332;width: 100%;height: 4rem;box-shadow: 0px 3px 6px rgba(30, 30, 30, 0.904)">
             <ul class="nav-links" style="display: flex;">
                 <li class="nav-link"><a href="#navbar">Home</a></li>
                 <li class="nav-link"><a href="#aboutus">AboutUs</a></li>
-                <li ><span><img src="images/logo.svg"/></span><h2 id="h2">Veg</h2><span id="spanH2"><h2 style="color: #46DC85;">Broker</h2></span></li>
+                <li ><h2 id="h2">Veg</h2><span id="spanH2"><h2 style="color: #46DC85;">Broker</h2></span></li>
                 <li class="nav-link"><a href="#team">Shop</a></li>
                 <li class="nav-link"><a href="#footer">Contact</a></li>
             </ul>
@@ -30,39 +30,46 @@
     <main>
 
         <section class="landingPage" id="landingPage">
-                <div class="fromPage">
-                    <div  id="vegBag2" style="background: ;"><img src="images/vegbag_illustater.svg"/></div>
-                    <div id="content" style="background: ;">
-                        <img id="starSvg" src="/images/star.svg" style="position: relative;"/>
-                        <h1>Get Fresh <span style="display: inline-block; color: #05c374;">Veggies</span></h1>
-                        <h1>Before you Wake</h1>
-                        <div id="subTitleText" style="width: 640px; text-align:left;">
-                            <h3>Fresh vegetables from direct farmers to customer.We are delivering fresh Vegetables to every hights in TamilNadu.</h3>
+            <div class="slider">
+                <div class="firstPage" >
+                    <div class="hero">
+                        <div id="vegBag2"><img src="images/vegbag_illustater.svg"/></div>
+                        <div id="content">
+                            <img id="starSvg" src="/images/star.svg" style="position: relative;"/>
+                            <h1>Get Fresh <span style="display: inline-block; color: #05c374;">Veggies</span></h1>
+                            <h1>Before you Wake</h1>
+                            <div id="subTitleText" style="width: 640px; text-align:left;">
+                                <h3>Fresh vegetables from direct farmers to customer.We are delivering fresh Vegetables to every hights in TamilNadu.</h3>
+                            </div>
+                            <div id="WhatsUpText">
+                                <h3 style="color: #ADFCDB;font-weight: 400;">Order using <span style="display: inline-block; color: #24BF7E;font-weight:200;">WhatsUp</span>
+                                <img id="sg1" src="/images/sg1.svg"/>
+                            </div>
+                            <div id="btns">
+                                <button type="button" class="btn1" >Order Now</button>
+                                <button type="button" class="btn2" >Contact</button>
+                            </div>
                         </div>
-                        <div id="WhatsUpText">
-                            <h3 style="color: #ADFCDB;font-weight: 400;">Order using <span style="display: inline-block; color: #24BF7E;font-weight:200;">WhatsUp</span>
-                            <img id="sg1" src="/images/sg1.svg"/>
+                        <div style="display:flex;position:absolute;width: 100%; height: 100px;z-index:1;bottom:1rem;
+                        flex-direction: column;align-items: center;justify-content: flex-start;
+                        box-shadow: 0px 0px 9px #f0f550;
+                        background-image: linear-gradient(to right, #f6f75f, #f0f550, #e9f23f, #e2f02b, #daee04);">
+                            <!-- <img  src="images/Rectangle_gradient.svg"/> -->
+                            <h3 id=discount>SPECIAL DISCOUNT</h1>
+                            <h3 id="sub_discount">UPTO <span style="color: #f33805;">10% </span> OFF ON EVERYDAY VEGGIES</h1>
                         </div>
-                        <div id="btns">
-                            <button type="button" class="btn1" >Order Now</button>
-                            <button type="button" class="btn2" >Contact</button>
-                        </div>
-                    
                     </div>
-                    <div style="display:flex;position:absolute;width: 100%; height: 100px;z-index:10;bottom:1rem;
-                    flex-direction: column;align-items: center;justify-content: flex-start;
-                    background-image: linear-gradient(to right, #f6f75f, #f0f550, #e9f23f, #e2f02b, #daee04);">
-                        <!-- <img  src="images/Rectangle_gradient.svg"/> -->
-                        <h3 id=discount>SPECIAL DISCOUNT</h1>
-                        <h3 id="sub_discount">UPTO <span style="color: #05c374;">10% </span> OFF ON EVERYDAY VEGGIES</h1>
-                    </div>
-                    
-                </div>
+                    </div>    
+                <div class="secondPage"></div>
+            </div>
+            <div style="position: absolute;width: 100%; height: 10px;background: #46DC85;"></div>
     </section>
 
-    </main>
-    
 
+    </main>
+
+    <script src="script.js"></script>
+    
  
 </body>
 </html>

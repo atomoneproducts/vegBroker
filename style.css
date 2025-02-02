@@ -1,9 +1,14 @@
 *{
+
     margin:0;
     padding:0;
     text-decoration: none; 
     list-style-type: none;
     box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 .nav-links{
@@ -73,15 +78,7 @@
     }
   } */
 
-  #landingPage{
-    overflow-x: hidden;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to right top, #353635, #2f302f, #292a29, #232424, #1d1e1e);
-     /* background-image: linear-gradient(to right top, #ffae7a, #feae78, #fdaf76, #fbaf74, #fab072,
-     #fab276, #fbb57b, #fbb77f, #fdbc8a, #fec196, #ffc7a1, #ffccac); */
-  } 
-
+ 
   /* .coverBg{
     width: 100%;
     height: 100vh;
@@ -91,57 +88,35 @@
     background-repeat: no-repeat;
   } */
 
-  #discount{
-    color: #f53412;
-    font-weight: 300;
-    font-size: 1.5rem;
-    font-family: Plus Jakarta Sans ,Geneva, Tahoma, sans-serif;
-    margin-top: 0.8rem;
-    /* position: absolute; */
-    /* right: 10rem; */
-  }
-
-  #sub_discount{
-    display: inline-block;
-    position: relative;
-    top:0.2rem;
-    color: #383837;
-    font-weight: 700;
-    font-size: 2rem;
-    font-style: italic;
-    font-family: Plus Jakarta Sans ,Geneva, Tahoma, sans-serif;
-
-  }
-
-  #discount {
-    /* font-size: 2rem; */
-    /* font-weight: bold; */
-    background: linear-gradient(90deg, #e8a48f, #f55b34, #e51902);
-    background-size: 200% 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shimmer1 2s infinite;
-  }
-
-  @keyframes shimmer1 {
-    0% {
-      background-position: -200% 0;
-    }
-    100% {
-      background-position: 200% 0;
-    }
-  } 
-
+  
 
   #content{
     color: #fff;
-    /* background: #f45a4c; */
     position: absolute;
     top: 5rem;
     left: 8rem;
   }
 
-  .fromPage{
+  #landingPage{
+    width: 200%;
+    height: 100vh;
+  } 
+
+  .slider{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .firstPage{
+    position: fixed;
+    width: 100%;
+    height: 98vh;
+    background-image: linear-gradient(to right top, #353635, #2f302f, #292a29, #232424, #1d1e1e);
+    transition: transform 1s ease-in-out;
+
+  }
+
+  .hero{
     width: 100%;
     height: 100vh;
     background-image: url(images/skycrapers.svg);
@@ -150,12 +125,12 @@
     background-repeat: no-repeat;
   }
 
-  .fromPage #starSvg{
+  .hero #starSvg{
     position: relative;
     left: -1.2rem;
     top:2.3rem;
   }
-  .fromPage h1{
+  .hero h1{
     line-height: 5.5rem;
     font-family: Plus Jakarta Sans, Geneva, Tahoma, sans-serif;
     font-weight: 800;
@@ -163,7 +138,6 @@
   }
 
   #vegBag2{
-    /* background: #01834b; */
     position: absolute;
     left:50vw;
     top:3rem;
@@ -211,6 +185,7 @@
     box-shadow: 0px 3px 6px #0e0e0e5d;
     
   }
+
   .btn2{
     margin-left: 1.5rem;
     font-family: Plus Jakarta Sans, Geneva, Tahoma, sans-serif;
@@ -246,6 +221,55 @@
     background: #e2e1e1;
   }
 
+  #discount{
+    color: #f53412;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: Plus Jakarta Sans ,Geneva, Tahoma, sans-serif;
+    margin-top: 0.8rem;
+    /* position: absolute; */
+    /* right: 10rem; */
+  }
+
+  #sub_discount{
+    /* display: inline-block; */
+    position: relative;
+    top:0.4rem;
+    color: #2c2c2b;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: Plus Jakarta Sans ,Geneva, Tahoma, sans-serif;
+
+  }
+
+  #discount {
+    /* font-size: 2rem; */
+    /* font-weight: bold; */
+    background: linear-gradient(90deg, #b8b3b1, #3a3939, #1c1c1c);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer1 2s infinite;
+  }
+
+  @keyframes shimmer1 {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  } 
+
+  .secondPage{
+    /* position: fixed; */
+    /* position: relative; */
+    width:100%;
+    height:98vh;
+    background: blueviolet;
+  }
   
  
   
